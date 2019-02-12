@@ -8,6 +8,8 @@
 - poedit
 - fun
 - Django
+- SQLite
+- Db Browser to SQLite
 
 ## pyenv
 ```bash
@@ -37,4 +39,14 @@ configure pycharm project
 
 PyCharm > Preferences > Project 
 interpleter
-na engrenagem add selecionar a versao
+add virtualenv
+
+## try if works
+```bash
+python manage.py runserver
+
+# open in your browser http://127.0.0.1:8000/
+
+# if I want to change de port
+python manage.py runserver 5555
+```
