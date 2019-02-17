@@ -43,6 +43,7 @@ add virtualenv
 
 ## try if works
 ```bash
+cd sampledjango/
 python manage.py runserver
 
 # open in your browser http://127.0.0.1:8000/
@@ -50,3 +51,19 @@ python manage.py runserver
 # if I want to change de port
 python manage.py runserver 5555
 ```
+
+## create a module in django project 
+execute the command inside of package of project
+in the same folder there is manage.py
+```bash
+
+
+
+```
+
+## create a database of app
+python manage.py makemigrations
+python manage.py migrate
+
+## create a super user
+python manage.py
